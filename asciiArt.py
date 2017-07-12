@@ -12,9 +12,14 @@ Usage:
     asciiArt.py (-h | --help)
     asciiArt.py --version
 
+Example:
+    asciiArt.py example.png
+    asciiArt.py example.png --resize 100 -o result.txt
+    asciiArt.py example.png --resize 100 --contrast 0.5 -r
+
 Options:
     --contrast C_NUMBER     Change the image contrast.
-    --resize WIDTH        Modify image size, keep proportion by default.
+    --resize WIDTH          Modify image size, keep proportion by default.
     -o OUTPUT_FILE          Output filename.
     -r                      Reverse the result, Dark background image may get better result
     -h --help               Show help.
@@ -58,7 +63,7 @@ def main(arguments):
         if arguments['-o'] is not None:
             f = open(arguments['-o'], 'w')
         else:
-            f = open(filename + 'ascii.txt', 'w')
+            f = open(filename + '_ascii.txt', 'w')
         for i in range(height):
             s = ''
             for j in range(width):
