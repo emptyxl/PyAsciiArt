@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""AsciiArt
+"""PyAsciiArt
     Convert image to character painting.
 
 Usage:
-    asciiArt.py <file>...   [--contrast C_NUMBER]
+    PyAsciiArt.py <file>...   [--contrast C_NUMBER]
                             [--resize WIDTH]
                             [-o OUTPUT_FILE]
                             [-r]
-    asciiArt.py (-h | --help)
-    asciiArt.py --version
+    PyAsciiArt.py (-h | --help)
+    PyAsciiArt.py --version
 
 Example:
-    asciiArt.py example.png
-    asciiArt.py example.png --resize 100 -o result.txt
-    asciiArt.py example.png --resize 100 --contrast 0.5 -r
+    PyAsciiArt.py example.png
+    PyAsciiArt.py example.png --resize 100 -o result.txt
+    PyAsciiArt.py example.png --resize 100 --contrast 0.5 -r
 
 Options:
     --contrast C_NUMBER     Change the image contrast.
