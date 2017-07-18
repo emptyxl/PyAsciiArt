@@ -1,2 +1,2 @@
 # PyAsciiArt
-Convert image to character painting
+Convert image to character painting  
