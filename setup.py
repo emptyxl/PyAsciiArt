@@ -4,14 +4,11 @@
 from setuptools import setup
 
 
-def read(fname):
-    return open(fname).read()
-
 setup(
     name='PyAsciiArt',
-    version='1.0.4',
+    version='1.0.5',
     description='Convert image to character painting.',
-    long_description=read('README.md'),
+    long_description=open('README.rst').read(),
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
