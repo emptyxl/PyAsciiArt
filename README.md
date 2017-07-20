@@ -19,13 +19,13 @@ There are two ways to use this module.
 
 ##### 1.Use this module as scrapt  
 
-```python
+```bash
 python -m PyAsciiArt example.png
 
 ```
 The parameters are described below:  
 
-```python
+```bash
 PyAsciiArt
     Convert image to character painting.
 
@@ -64,10 +64,12 @@ The specific usage can see function Annotations.
 ##### original image  
 ![](https://github.com/emptyxl/PyAsciiArt/tree/master/PyAsciiArt/example.jpeg)
 
-```python
+#### example1
+```bash
 python -m PyAsciiArt example.png --resize 128 
 ```
 
+```
 =========================================;=;;;;;;;;;;;;;;;=;;;#
 =.............................   ..                            ;
 =........................ ....    .                            =
@@ -145,14 +147,16 @@ python -m PyAsciiArt example.png --resize 128
 =                                                              ;
 =                                                              ;
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
-
+#### example2  
 
 ```python
 PyAsciiArt.convert('example.jpeg', resize=128, contrast=1.5,
                    reverse=True, output='r_example_ascii.txt')
 ```
 
+```
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
@@ -227,3 +231,4 @@ PyAsciiArt.convert('example.jpeg', resize=128, contrast=1.5,
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
 .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
+```
