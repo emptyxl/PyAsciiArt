@@ -19,13 +19,13 @@ There are two ways to use this module.
 
 ##### 1.Use this module as scrapt  
 
-```bash
+```shell
 python -m PyAsciiArt example.png
 
 ```
 The parameters are described below:  
 
-```bash
+```shell
 PyAsciiArt
     Convert image to character painting.
 
@@ -62,10 +62,10 @@ The specific usage can see function Annotations.
 
 ## Example  
 ##### original image  
-![](https://github.com/emptyxl/PyAsciiArt/tree/master/PyAsciiArt/example.jpeg)
+![image](https://github.com/emptyxl/PyAsciiArt/tree/master/PyAsciiArt/example.jpeg)
 
 #### example1
-```bash
+```shell
 python -m PyAsciiArt example.png --resize 128 
 ```
 
