@@ -5,7 +5,7 @@
     Convert image to character painting.
 
 Usage:
-    PyAsciiArt.py <file>...   [--contrast C_NUMBER]
+    PyAsciiArt.py <file>... [--contrast C_NUMBER]
                             [--resize WIDTH]
                             [-o OUTPUT_FILE]
                             [-r]
