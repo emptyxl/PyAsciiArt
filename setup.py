@@ -6,9 +6,9 @@ from setuptools import setup
 
 setup(
     name='PyAsciiArt',
-    version='1.0.8',
+    version='1.1.0',
     description='Convert image to character painting.',
-    long_description=open('README.rst').read(),
+    long_description='Usage or mor information see: https://github.com/emptyxl/hxk_gulpdemo',
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',

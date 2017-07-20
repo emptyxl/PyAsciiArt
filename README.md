@@ -62,7 +62,7 @@ The specific usage can see function Annotations.
 
 ## Example  
 ##### original image  
-![image](https://github.com/emptyxl/PyAsciiArt/tree/master/PyAsciiArt/example.jpeg)
+![image](https://github.com/emptyxl/PyAsciiArt/raw/master/PyAsciiArt/example.jpeg)
 
 #### example1
 ```shell
