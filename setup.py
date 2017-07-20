@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='PyAsciiArt',
-    version='1.0.5',
+    version='1.0.8',
     description='Convert image to character painting.',
     long_description=open('README.rst').read(),
     classifiers=[
