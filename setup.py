@@ -8,7 +8,7 @@ setup(
     name='PyAsciiArt',
     version='1.1.0',
     description='Convert image to character painting.',
-    long_description='Usage or mor information see: https://github.com/emptyxl/hxk_gulpdemo',
+    long_description='More information you can see: https://github.com/emptyxl/hxk_gulpdemo',
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
