@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='PyAsciiArt',
-    version='1.2.2',
+    version='1.3.0',
     description='Convert image to character painting.',
     long_description='More information you can see: https://github.com/emptyxl/PyAsciiArt',
     classifiers=[

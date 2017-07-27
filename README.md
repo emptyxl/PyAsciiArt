@@ -17,7 +17,7 @@ python setup.py install
 ## Usage  
 There are two ways to use this module.  
 
-##### 1.Use this module as scrapt  
+##### 1.Use this module as script  
 
 ```shell
 python -m PyAsciiArt example.png
